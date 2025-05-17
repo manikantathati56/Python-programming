@@ -1,4 +1,4 @@
-# python program to reverse a string using functions
+# python program to reverse a string 
 
 s=input("Enter the string:")
 reverse=s[::-1]

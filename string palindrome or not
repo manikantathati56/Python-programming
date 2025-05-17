@@ -1,0 +1,12 @@
+# python program to find string palindrome or not
+
+s=input("Enter the string:")
+reverse=s[::-1]
+if s==reverse:
+    print("String is palindrome")
+else:
+    print("String is not palindrome")
+
+output:
+Enter the string:madam
+String is palindrome

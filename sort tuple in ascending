@@ -1,0 +1,8 @@
+# python program to sort tuple in ascending
+
+s=(1,5,3,4,2)
+s1=sorted(s)
+print("Sorted tuple =",tuple(s1))
+
+output:
+Sorted tuple = (1, 2, 3, 4, 5)

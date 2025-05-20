@@ -1,0 +1,10 @@
+# python program to sort list in descending using functions
+
+def my_function(s):
+    descending=sorted(s,reverse=True)
+    print("Sorted list =",descending)
+s=[1,5,4,2,3]
+my_function(s)
+
+output:
+Sorted list = [5, 4, 3, 2, 1]

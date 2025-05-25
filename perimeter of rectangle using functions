@@ -1,0 +1,13 @@
+# python program to find the perimeter of rectangle using functions
+
+def my_function(l,b):
+    perimeter=2*(l+b)
+    print("Perimeter of rectangle =",perimeter)
+l=int(input("Enter the length of rectangle:"))
+b=int(input("Enter the breadth of rectangle:"))
+my_function(l,b)
+
+output:
+Enter the length of rectangle:10
+Enter the breadth of rectangle:6
+Perimeter of rectangle = 32

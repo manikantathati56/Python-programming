@@ -1,0 +1,11 @@
+# python program to find the perimeter of square using functions
+
+def my_function(s):
+    perimeter=4*s
+    print("Perimeter of square =",perimeter)
+s=int(input("Enter the side of square:"))
+my_function(s)
+
+output:
+Enter the side of square:4
+Perimeter of square = 16
